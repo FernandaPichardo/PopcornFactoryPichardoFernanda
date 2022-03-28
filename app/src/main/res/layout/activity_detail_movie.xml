@@ -30,6 +30,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:text="BONES"
+                android:textStyle="bold"
                 android:textSize="25sp" />
 
                 <View
@@ -48,5 +49,26 @@
             android:text="Dr. Temperance Brennan is a brilliant, but lonely, anthropologist whom is approached by an ambitious FBI agent, named Seely Booth, to help the bureau solve a series of unsolved crimes by identifying the long-dead bodies of missing persons by their bone structure. But both Agent Booth and Dr. Brennan and her team come up again a variety of interference from red tape, corruption, and local noncooperation."
             android:textSize="14sp"/>
     </LinearLayout>
+
+    <Button
+        android:id="@+id/buy_tickets"
+        android:layout_marginTop="30dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textColor="@color/black"
+        android:background="@drawable/round_button"
+        android:paddingHorizontal="25dp"
+        android:text="Buy my ticket!" />
+
+    <TextView
+        android:id="@+id/seats_left"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/gray"
+        android:textStyle="italic"
+        android:textAlignment="center"
+        android:layout_marginTop="20dp"
+        />
 
 </LinearLayout>

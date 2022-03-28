@@ -11,4 +11,8 @@
     <color name="button_back">#FFD501</color>
     <color name="fondo">#1D1D1D</color>
     <color name="text_letter">#C5C5C5</color>
+    <color name="yellow">#FFD501</color>
+    <color name="gray">#9E9E9E</color>
+    <color name="letter">#C5C5C5</color>
+
 </resources>

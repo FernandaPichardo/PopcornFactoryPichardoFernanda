@@ -1,4 +1,6 @@
 package pichardo.fernanda.popcornfactory
 
-class Client {
+data class Client ( var name: String,
+                    var tipoPago: String,
+                    var seat: Int){
 }
